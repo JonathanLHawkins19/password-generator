@@ -36,7 +36,7 @@ var password = document.getElementById("password");
 
 function generatePassword(lower, upper, number, SpecialCharacter, characterAmountNumber){
   var fromCharCode = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_-+={[}]|\}:'<,.>?/"
-  var passwordLegnth = 18;
+  var passwordLegnth = 9;
   var password = "";
 
   for (var i = 0; i <= passwordLegnth; i++){
